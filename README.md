@@ -24,4 +24,4 @@ Esta es una aplicación web de ruby con metodos CRUD
 - Instala las dependencias ejecutando en consola `bundle install --gemfile "ruta del proyecto"`
 - Migra la base de datos ejecutando en consola `rails db:migrate`
 - Ejecuta el programa `rails server`
-- Para ejecutar los tests ejecutar `rails test` y automaticamente generará los test ubicados en `test/controllers/items_controllers_test.rb` de las funciones CRUD con los datos ubicados en `test/fixtures/items.yml`
+- Para ejecutar las pruebas unitarias ejecutar `rails test` y automaticamente generará los test ubicados en `test/controllers/items_controllers_test.rb` de las funciones CRUD con los datos ubicados en `test/fixtures/items.yml`
