@@ -21,6 +21,7 @@ Esta es una aplicación web de ruby con metodos CRUD
 - Instala [Ruby](https://rubyinstaller.org/downloads/) 3.2.4
 - Ejecuta en consola `gem install rails`
 - Dentro del proyecto entra a `cd inventory_app`
-- Migra la base de datos ejecutando en consola `rails db:migrate`
+- Instala las dependencias ejecutando en consola `bundle install --gemfile "ruta del proyecto"`
+- Migra la base de datos ejecutando en consola `rails db:migraute`
 - Ejecuta `rails server`
   
