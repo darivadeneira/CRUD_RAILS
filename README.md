@@ -1,24 +1,26 @@
-# README
+---
+title: Ruby on Rails
+description: Framework de aplicaciones web de código abierto del lado del servidor escrito en el lenguaje de programación Ruby
+tags:
+  - ruby
+  - rails
+---
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Ejemplo de Python Flask
 
-Things you may want to cover:
+Esta es una aplicación web de ruby con metodos CRUD
 
-* Ruby version
+## ✨ Características
 
-* System dependencies
+- RUBY
+- RAILS
 
-* Configuration
+## 💁‍♀️ Cómo usar
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Instala el subsistema de Windows para Linux, ejecute powershell y ejecute `wsl --install -d Ubuntu`
+- Instala [Ruby](https://rubyinstaller.org/downloads/) 3.2.4
+- Ejecuta en consola `gem install rails`
+- Dentro del proyecto entra a `cd inventory_app`
+- Migra la base de datos ejecutando en consola `rails db:migrate`
+- Ejecuta `rails server`
+  
