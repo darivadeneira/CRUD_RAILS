@@ -1,0 +1,18 @@
+<%= stylesheet_link_tag "index", "data-turbo-track": "reload" %>
+
+<body>
+  <div class="container">
+    <h1>Inventario</h1>
+    <%= link_to 'Nuevo Item', new_item_path, class: "new-item-link" %>
+
+    <ul>
+      <% @items.each do |item| %>
+        <li>
+          <%= link_to item.name, item_path(item) %>
+          <%= link_to 'Editar', edit_item_path(item), class: 'edit-link' %>
+          <%= link_to 'Borrar', item_path(item), data: { turbo_method: :delete }, class: 'delete-link' %>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</body>

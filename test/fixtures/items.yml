@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: Adidas
+  description: Zapatillas
+  quantity: 12
+
+two:
+  name: Puma
+  description: Zapatillas
+  quantity: 15
